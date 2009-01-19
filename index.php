@@ -71,8 +71,6 @@
         ->body()
         ->outline(array('title'=>$title));
 
-    // Add each of the posts as OPML outline elements, with details 
-    // encoded in attributes.
     foreach ($friends as $friend) {
         $x->emptyelement('outline', array(
             'type'    => 'rss',
