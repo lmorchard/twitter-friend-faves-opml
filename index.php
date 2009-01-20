@@ -19,7 +19,7 @@
             form fieldset ul { list-style-type: none }
             form fieldset ul li { padding-bottom: 0.5em }
             form fieldset ul li label, form fieldset ul li span 
-                { float: left; text-align: right; width: 12ex; padding-right: 0.25em; }
+                { float: left; text-align: right; width: 18ex; padding-right: 0.25em; }
             form fieldset ul li label:after { content: ":"; }
             form fieldset ul li input { }
         </style>
