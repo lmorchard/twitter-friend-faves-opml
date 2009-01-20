@@ -31,7 +31,7 @@
                 <legend>user details</legend>
                 <ul>
                     <li>
-                        <label>screen name</label>
+                        <label>your screen name</label>
                         <input name="screenname" type="text" />
                     </li>
                     <li>
