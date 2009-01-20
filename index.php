@@ -1,7 +1,7 @@
 <?php
     $user_name = 'lmorchard';
     $password = 'not my password';
-    $page_title = "twitter friends' faves as OPML";
+    $page_title = "Twitter friends' favorites feeds as OPML";
 
     $base_url = $_SERVER['REQUEST_URI'];
     function e($str) {
@@ -41,6 +41,11 @@
                 </ul>
             </fieldset>
         </form>
+        <p>
+            Written by <a href="http://decafbad.com/">l.m.orchard</a>.  Share and enjoy.
+            Download the source for this utility from 
+            <a href="http://github.com/lmorchard/twitter-friend-faves-opml/">GitHub</a>.
+        </p>
     </body>
 </html>
 <?php else: ?>
